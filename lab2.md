@@ -1,13 +1,12 @@
 ## Introduction, Outline of Section
-- Self inteiduction 
-- Logistics: 
+- Self inteiduction
+- Logistics:
 	* Office hour Monday 11:30-12:30
 	* Email: minjiaz@uchicago.edu
 	* Mac User 
-- Outline: 
 
 ## Possible Installation Expectations
-- Tell them that we expect them to have everything installed/signed up by the first week, and that they should attend section and office hours if they need any help...installation support will not be guaranteed after the first week — checklist below: 
+- Tell them that we expect them to have everything installed/signed up by the first week, and that they should attend section and office hours if they need any help...installation support will not be guaranteed after the first week — checklist below:
     * (Windows only) install cygwin
     * Sign up for Github
     * Download Git for command line
@@ -42,27 +41,27 @@ Why? - Compare to GUI (Graphical User Interface)
 	```
     $ cd complete-pathname # General cd command
     $ cd ./relative-pathname
-    $ cd .. 		    # Change to parent directoy 
-    $ cd / 				# Change to root directory 
+    $ cd .. 		    # Change to parent directoy
+    $ cd / 				# Change to root directory
     $ cd 				# Change to home (defualt) directory
     ```
 
  - Inspecting Files
  	* ls (list files and directories)
-    
+
     ```
-    
-    ``` 
+
+    ```
  	* less (view text files)
  	* file (calssfiy a file's contents)
 
 
 ## Git Commands
 - Basic  
-Check if your github accout is linked to your terminal 
+Check if your github accout is linked to your terminal
 ```
-$ git config --global user.email 
-$ git config --global user.name 
+$ git config --global user.email
+$ git config --global user.name
 ```
 
 If not
@@ -76,7 +75,7 @@ View the status of repo (whether the branch is up-to-date)
 $ git status
 ```
 
-Show history 
+Show history
 ```
 $ git log
 ```
@@ -87,7 +86,7 @@ $ git log
 ```
 $ git clone https://github.com/harris-ippp/s18-a01-username.git
 ```
-3) Do (modified) the homework 
+3) Do (modified) the homework
 4) Add the *modified* file to staging area
 ```
 $ git add filename
@@ -96,7 +95,7 @@ You can also add ALL *modified* file to staging area
 ```
 $ git add -A
 ```
-5) Commit (save) staged file 
+5) Commit (save) staged file
 ```
 $ git commit
 ```
