@@ -1,2 +1,2 @@
 # harris-ippp-lab
-Lab Session Material
+Minjia's Lab Session Material
