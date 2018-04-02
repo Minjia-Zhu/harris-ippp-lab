@@ -72,6 +72,7 @@ Why? - Compare to GUI (Graphical User Interface)
  	* less (view text files)
 	```
 	$ less filename
+	```
 
  - Manipulating Files
  	* cp (copy files and directories)
