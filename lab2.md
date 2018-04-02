@@ -6,6 +6,17 @@
 	* Email: minjiaz@uchicago.edu
 	* Mac User
 
+## Some typo to fix in case you haven't done so
+
+1. Under #2 in the salaries.sh file, the hint should state
+# Hint: grep for ',F,' then use wc
+
+2. In cell1 of the test_suite.ipynb file, change the second line to:
+import matplotlib.pyplot as plt
+
+3. In cell2 of the test_suite.ipynb file, change the second line to
+salaries = pd.read_csv('salaries.csv')
+
 ## Possible Installation Expectations
 - Tell them that we expect them to have everything installed/signed up by the first week, and that they should attend section and office hours if they need any help...installation support will not be guaranteed after the first week — checklist below:
     * (Windows only) install cygwin
@@ -79,8 +90,9 @@ Why? - Compare to GUI (Graphical User Interface)
     $ tail -n salaries.csv
     $ wc -l salaries.csv
     ```
-    * grep with RegEx
+    * grep with RegEx:
     __Standard RegEx w/o backslash__
+	Reference: https://www.icewarp.com/support/online_help/203030104.htm
         * ^' and '$': the start and the end of a string
         ```
         "^abc"  # matches any string that starts with "abc".
