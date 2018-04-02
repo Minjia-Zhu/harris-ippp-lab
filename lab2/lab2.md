@@ -1,5 +1,4 @@
 ## Introduction, Outline of Section
-- Self Introduction
 - Logistics:
 	* Lab: Monday 10:30-11:30
 	* Office hour:  Monday 11:30-12:30
