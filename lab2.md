@@ -8,8 +8,8 @@
 
 ## Some typo to fix in case you haven't done so
 
-1. Under #2 in the salaries.sh file, the hint should state
-# Hint: grep for ',F,' then use wc
+1. Under #2 in the salaries.sh file, the hint should state:
+Hint: grep for ',F,' then use wc
 
 2. In cell1 of the test_suite.ipynb file, change the second line to:
 import matplotlib.pyplot as plt
@@ -123,13 +123,13 @@ Why? - Compare to GUI (Graphical User Interface)
         * Period .: any single character:
         ```
         "a.[0-9]" # matches a string that has an a followed by one character and a digit
-        "^.{3}$" # a string with exactly 3 characters
+        "^.{3}$"  # a string with exactly 3 characters
         ```
         * Bracket expressions: which characters are allowed in a single position of a string:
         ```
-        "[ab]"      # matches a string that has either an a or a b (that's the same as "a|b")
-        "[a-d]"     # a string that has lowercase letters 'a' through 'd' (that's equal to "a|b|c|d" and even "[abcd]")
-        "^[a-zA-Z]" # a string that starts with a letter
+        "[ab]"           # matches a string that has either an a or a b (that's the same as "a|b")
+        "[a-d]"          # a string that has lowercase letters 'a' through 'd' (that's equal to "a|b|c|d" and even "[abcd]")
+        "^[a-zA-Z]"      # a string that starts with a letter
         ",[a-zA-Z0- 9]$" # a string that ends in a comma followed by an alphanumeric character
         ```
     * Program composition
