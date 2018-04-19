@@ -1,5 +1,5 @@
 #!/bin/sh
-# Code from https://github.com/konzy/mass_clone
+# Code modified from https://github.com/konzy/mass_clone
 # Usage:
 # $ ./clone_all.sh harris-ippp spring-2018-assignment-2 Minjia-Zhu https
 
