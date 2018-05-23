@@ -28,11 +28,12 @@ soup = bs(response.text, 'html.parser')
 bolds = soup.find_all('b')[:-1]
 counter = 0
 for b in bolds:
+	print(b.contents)
     link = b.find('a')
     if link == None:
         print("################it does not have link, skip####################")
     else:
-        print(link.encode(errors="ignore"))
-        print(link.attrs['href'].encode(errors="ignore"))
-        print(link.attrs['title'].encode(errors="ignore"))
+    	print(link.attrs['href'])
+        #print(link.contents)
+        print(link.attrs['title'])
         # print(link.text.encode(errors="ignore"))
